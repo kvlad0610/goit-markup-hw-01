@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --primery-text-color: #757575;
   --title-text-color: #212121;
   --accent-color: #2196f3;
@@ -26,11 +26,11 @@ body {
 
 .site-nav .link.current {
   color: var(--accent-color);
-}
+} */
 
 /* Address */
 
-.header-address .mail {
+/* .header-address .mail {
   color: var(--primery-text-color);
 }
 
@@ -46,23 +46,23 @@ body {
 .header-address .tel:hover,
 .header-address .tel:focus {
   color: var(--accent-color);
-}
+} */
 
 /* Hero */
 
-.hero-title {
+/* .hero-title {
   color: var(--primery-white-color);
-}
+} */
 
 /* Section */
 
-.section-title {
+/* .section-title {
   color: var(--title-text-color);
-}
+} */
 
 /* Button */
 
-.button {
+/* .button {
   background-color: var(--accent-color);
   color: var(--primery-white-color);
-}
+} */
