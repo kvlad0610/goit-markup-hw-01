@@ -1,8 +1,68 @@
-/*.link {
-  color: black;
+:root {
+  --primery-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primery-white-color: #ffffff;
+  --secondary-white-color: rgba(255, 255, 255, 0.6);
 }
 
-.link:hover,
-.link:focus {
-  color: blue;
-}*/
+body {
+  background-color: #e5e5e5;
+  color: var(--primery-text-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.site-nav .link {
+  color: #212121;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+/* Address */
+
+.header-address .mail {
+  color: var(--primery-text-color);
+}
+
+.header-address .mail:hover,
+.header-address .mail:focus {
+  color: var(--accent-color);
+}
+
+.header-address .tel {
+  color: var(--primery-text-color);
+}
+
+.header-address .tel:hover,
+.header-address .tel:focus {
+  color: var(--accent-color);
+}
+
+/* Hero */
+
+.hero-title {
+  color: var(--primery-white-color);
+}
+
+/* Section */
+
+.section-title {
+  color: var(--title-text-color);
+}
+
+/* Button */
+
+.button {
+  background-color: var(--accent-color);
+  color: var(--primery-white-color);
+}
